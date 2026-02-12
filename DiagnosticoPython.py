@@ -20,6 +20,20 @@ def librosLeidos( people, books_read ):
         else:
             print(people[index] + " no ha leido ningun libro!")
         index = index +1
+        
+#Ejercicio 1 y 2
+#
+# Solucion por uso de ciclos con tuplas 
+# 
+# for b , pin zip( people, books_read
+#   if b == 0
+#       print no ha leido libros
+#    else ha leido tantos    
+# 
+#Se uso el metodo   zip() 
+#
+# #
+
 
 def podio(people, books_read ):  
     podium = []  
@@ -36,6 +50,27 @@ def podio(people, books_read ):
             if i == o:
                 index = books_read.index(i)
                 print(people[index] + " ha leido "+ str(i) + " libros")
+#
+# Ejercicio 3 
+# Solucion
+# 
+# book_tuples = [(b,p )for b, p in zip ( nooks_read, people)]
+# 
+# 
+# #                
+
+
+
+#
+# otra solucion
+#usando splits
+#
+#for b,p in sorted(book_tuples, reverse=True)[:3]: 
+#   print(f'{p} has read{b} books')
+# 
+# 
+# 
+# #
                         
 def multiploDe3Bono(people, books_read):
     index = 0
